@@ -49,6 +49,7 @@ Start the server
 ###  All backend APIs are located in the Movie.java file at the following path: 
 spring-review-backend/src/main/java/dev/abhijeet/movies/Controllers
 #### Get movies
+#### Update CORS in Movie Controller
 ```http
   GET http://localhost:8080/api/v1/movies
 ```
@@ -58,6 +59,7 @@ spring-review-backend/src/main/java/dev/abhijeet/movies/Controllers
 ```
 
 #### Post Reviews
+#### Update CORS in Review Controller
 ```http
   POST http://localhost:8080/api/v1/reviews
 ```
